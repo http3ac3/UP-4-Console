@@ -18,7 +18,7 @@ namespace UP_4._2_Console
             int N;
             Console.Write("Введите число N, большее или равное 1000: ");
             while (!int.TryParse(Console.ReadLine(), out N) || N < 1000)
-                Console.Write("Введены некорректные данные! Введите N (>= 1000) еще раз: ");
+                Console.Write("Введен некорректные данные! Введите N (>= 1000) еще раз: ");
 
             Console.WriteLine();
             Function(N);
